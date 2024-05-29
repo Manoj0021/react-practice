@@ -1,0 +1,22 @@
+package.json is the config for npm 
+package are also known as dependencies
+
+type of dependencies
+ dev dependencies
+ normal dependencies
+
+package.lock.json holds the dependency tree information that is required by the each dependency
+
+
+tilde ~ in package.json upgrades to the major version
+^ carat in package.json upgrades to only minor patches
+
+use preferably ^ so there is less chance of breaking of app due to the updates
+
+transitive dependencies - dependencies that are needed by the main dependencies
+
+npx - executing the package 
+
+cdn is not the proper way to use react cause it's a costly operation
+
+npx parcel index.html --> command for running the app (with cdn or with installed react and reactDom packages)
