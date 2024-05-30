@@ -1,0 +1,26 @@
+use scripts to run the project / to make it easier 
+you can create your own scripts in package.json 
+if you are using some package to check for commands to utilize the projects use the package.json scripts
+
+
+
+root.render() this method replaces whatvever is in the Div root of the html folder (replace being the keyword in here not append never append)
+
+other thing to remember
+
+first React.createElement --> then ReactDOM.createRoot by getting the root id --> then rendering using root.render() method
+
+jsx is a html like syntax it's not html inside javascript
+jsx isn't understood by the js engine it is converted into understandable js by the parcel/vite or any bundler that you are using --(babel)
+
+jsx is converted into react.createElement() by using babel [react.createElement is converted into an object that is rendered by the render()]
+
+attributes in jsx are done in camel case
+
+jsx in multiple lines require () covering it.
+
+
+component composition is the method of composing two components inside each other.
+
+you can write js code inside jsx within a set of curly braces
+
